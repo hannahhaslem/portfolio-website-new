@@ -1,0 +1,767 @@
+
+/* CCS RESEST */
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            font-family: 'avenir next', sans-serif;
+            background-color: #FFFFFF;
+            padding: 0px;
+        }
+
+html{
+    scroll-behaviour: smooth;
+}
+
+/* home */
+
+        .i1 {
+            max-width: 3.5%;
+            float: left;
+            margin-left: 9.9em;
+            margin-top: 0.6em;
+        }
+
+
+        #intro {
+            display: grid;
+            grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+            padding-top: 7em;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100em;
+        }
+.containerhome {
+    position: relative;    
+}
+
+.bg {
+    width: 100%;
+    height: 90%;
+}
+
+        .overlay {
+            font-size: 4em;
+            font-weight: 550;
+            position: absolute;
+            top: 2.5em;
+            left: 3.3em;  
+}
+
+        .overlay1 {
+            font-size: 2em;
+            position: absolute;
+            top: 7.5em;
+            left: 6.7em; 
+        }
+
+
+
+
+
+ /*        .button1 {
+            background-color: #FFFFFF;
+            border-radius: 50px;
+            border: 4px solid #00ACC1;
+            padding: 10px 30px 10px 30px; 
+            grid-column: 4/7;
+            margin-top: 15em;
+        }
+
+        .button1 a {
+            text-decoration: none;
+            font-size: 1.9em;
+            font-weight: 500;
+            border-bottom: none;
+            color: #00ACC1;
+            text-decoration-color: #00ACC1;
+        }
+
+
+        .button1 a:hover {
+            font-size: 1.9em;
+            color: #FFFFFF;
+            background-color: #00ACC1;
+            transition: all 0.2s ease-in-out;
+        }
+*/
+
+
+/*Portfolio */
+        #portfolio {
+            display: grid;
+            grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+            padding-top: 7em;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100em;
+        }
+    
+        .intro3 {
+            font-size: 2.8em;
+            font-weight: 550;
+            grid-column: 4/13;
+            margin-top: -3em;
+}
+
+        .intro4 {
+            font-size: 1.4em;
+            font-weight: 400;
+            grid-column: 4/13;
+            margin-top: -3em;
+        }
+    
+/* PORTFOLIO IMAGES CSS GRID1
+ 
+            .grid1  {
+            display: grid;
+            grid-gap: 3px;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr 1fr;
+            justify-items: center;
+
+    }
+*/
+
+a {
+    color: black;
+}
+            a:hover {
+                color: #B2EBF2;
+}
+
+            .portfolio {
+            display: grid;
+            }
+    
+            .portfolio-item {
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            grid-gap: 20px;
+            }
+            
+            .portfolio-item img {
+            width: 100%;
+            object-fit: contain;
+            }
+
+.blue {background-color: blue;}
+
+
+
+/* NAVIGATION */    
+
+        ol {
+            font-size: 1.4em;
+            background-color: #FFFFFF;
+            padding: 30px;
+            position: static;
+            box-shadow: 5px 5px 10px #F1F1F1;   
+        }
+        
+        ol li {
+            display: inline-block;
+        }
+
+        li a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav {
+            margin-top: -3.5em;
+            width: 100%;
+            font-weight: 400;
+        }
+
+        nav ol {
+            letter-spacing: 0.1px;
+            text-align: right;
+            margin-top: 2.5em;
+            padding-right: 150px;
+        }
+
+        nav ol li {
+            display:inline;
+            margin: 4px;
+            padding: 13px 9px 13px 13px;
+            background-color: #ffffff;
+        }
+
+
+        nav a:hover { 
+            color: #000000;
+            transition: all 0.4s ease-in-out;
+            background-color: #B2EBF2;
+        }
+
+
+/*-- About -- */
+
+        #about {
+            display: grid;
+            grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+            padding-top: 7em;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100em;
+        }
+
+        .intro5 {
+            font-size: 1.5em;
+            grid-column: 4/15;
+            font-weight: 400;
+            text-decoration: underline;
+            text-decoration-color: #00ACC1;
+        }
+
+        .p1 {       
+            font-size: 1.3em;
+            grid-column: 4/13;            
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        .bold {
+            grid-column: 4/16;
+            font-size: 1.3em;
+            font-weight: 550;
+        }
+
+        .p2 {       
+            font-size: 1.3em;
+            grid-column: 4/13;            
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        .button2 {
+            background-color: #FFFFFF;
+            border-radius: 50px;
+            border: 4px solid #00ACC1;
+            padding: 10px 30px 10px 30px; 
+            grid-column: 4/8;
+            margin-top: 3em;
+        }
+
+        .button2 a {
+            text-decoration: none;
+            font-size: 1.9em;
+            font-weight: 500;
+            border-bottom: none;
+            color: #00ACC1;
+            text-decoration-color: #00ACC1;
+        }
+
+        .button2 a:hover {
+            font-size: 1.9em;
+            color: #FFFFFF;
+            background-color: #00ACC1;
+            transition: all 0.2s ease-in-out;
+        }
+
+/* Skills */
+
+
+        .skills {
+            display: grid;
+            grid-gap: 3px;
+            grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        }
+
+        .frontend {
+            width: 70%;
+            grid-column: 4/8;
+            margin-top: 5em;
+        }
+
+        .uidesign {
+            width: 70%;
+            grid-column: 8/12;
+            margin-top: 5em;
+        }
+
+        .branding {
+            width: 68%;
+            grid-column: 12/15;
+            margin-top: 5em;
+}
+
+
+/* ICONS */
+#contact {
+     display: grid;
+            grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+            padding-top: 3em;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100em;
+        }
+
+       .box {
+           grid-column: 1/11;
+            box-shadow: 5px -5px 10px #F1F1F1;
+            margin-top: 5em;
+            background-color: #ffffff;
+        }
+
+        h3 {
+            font-size: 1.7em;
+            margin-bottom: 0.5em;
+            padding-top: 1em;
+            margin-left: 8.1em;
+        }
+
+        .email {
+            margin-left: 9.75em;
+            font-size: 1.4em;
+        }
+
+        .email a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .email b{ 
+            color: #000000;
+        }
+
+        .email a:hover {
+            background-color: #B2EBF2;
+            color: #000000;
+            transition: all 0.4s ease-in-out;
+            text-decoration: underline;
+            }
+
+
+.socialmedia {
+    position: relative;
+    margin: 0 auto;
+    margin: 1em;
+    margin-left: 13em;
+}
+
+.socialmedia ul{
+    margin: 0;
+    padding: 0;
+}
+
+.socialmedia li{
+    margin: 0 5px;
+    padding: 0;
+    padding-top: 0;
+    list-style: none;
+    display: inline-block;
+    width: 4%;
+}
+
+.socialmedia a:link {
+    border-bottom: none;
+}
+
+.socialmedia img {
+    opacity: 0.6;
+}
+
+.socialmedia a:hover img {
+    opacity: 1.0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+/*
+     connections {
+            position: relative;
+            text-decoration: none;
+        }
+
+        connections li {
+            margin: 0;
+            padding 0;
+            text-decoration: none;
+
+        }
+
+        connections li {
+            margin: 0;
+            padding: 0;
+            padding-top:0em; 
+            list-style: none;
+            display: inline-block;
+
+        }
+
+        connection a:link {
+            border-bottom: none;
+            text-decoration: none;
+        }
+
+        connections img {
+            opacity: 0.9;
+            border: none;
+            height: 3em;
+            list-style: none;
+
+        }
+
+        connections a:hover img {
+            opacity: 6.0;
+            border-bottom: none;
+            transition: all 0.4s ease-in-out;
+            transform: scale(1.4);
+        }
+
+*/
+
+
+/* Personal Branding */
+
+        #personalbrand {
+            display: grid;
+            grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+            padding-top: 3em;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100em;
+        }
+
+.businesscards{
+    grid-column: 3/19;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+
+        .heading1 {
+            font-size: 3.4em;
+            grid-column: 3/20;
+            font-weight: 600;
+            margin-bottom: -0.1em;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            grid-column: 2/10;
+            margin-left: 0;
+            margin-bottom: 0em;
+            font-weight: 500;
+        }       
+
+        p{
+            grid-column: 2/12;
+            font-size: 1em;
+            margin-bottom: 1em
+        }
+
+        .p4 {
+            font-weight: 400;
+            font-size: 1.2em;
+            grid-column: 3/7;
+        }
+
+        .heading2 {
+            grid-column: 3/7;
+        }
+
+        .p5 {
+            margin-bottom: 0.5em;
+            font-weight: 400;
+            grid-column: 3/12;
+        }
+
+        .p6{
+    font-weight: 600;
+        }
+
+
+        .list1 {
+            grid-column: 13/16;
+            margin-top: -1em;
+            list-style-type: none;
+            font-size: 1em;
+            background-color: #B2EBF2;
+            padding: 2em;
+            list-style-position: inside;
+            list-style: circle;
+            border-radius: 5px 0 0 5px;
+
+        }
+
+        .list2 {
+            grid-column: 16/19;
+            list-style-type: none;
+            font-size: 1em;
+            margin-top: -1em;
+            background-color: #B2EBF2;
+            padding: 2em;
+            list-style-position: inside;
+            list-style: circle;
+            border-radius: 0 5px 5px 0;
+            }
+
+        .h2 {
+            font-size: 2.5em;
+            grid-column: 3/12;
+            margin-left: 0;
+            margin-bottom: 0em;
+            margin-top: 2em;
+        }
+
+        h4 {
+            grid-column: 3/6;
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-top: -3em;
+        }
+
+        .date {
+            grid-column: 6/6;
+            margin-top: -3.2em;
+            margin-left: -1.5em;
+        }
+
+
+
+/* MONOGRAM, WORDMARK AND VISUAL MARQUE */
+
+        .p7 {
+              grid-column: 3/11;
+            font-size: 1em;
+        }
+
+       
+        .image1 {
+            grid-column: 12/19;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        .image2 {
+            grid-column: 3/11;
+            margin-top: 1em;
+            border: solid #B2EBF2;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        .image3 {
+            grid-column: 12/19;
+            border: solid #B2EBF2;
+            width: 99%;
+            margin-top: 1em;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+
+        .image4 {
+            grid-column: 5/11;
+            padding-top: 1em;
+        }
+
+
+        .image5 {
+            grid-column: 11/17;
+            padding-top: 1em;
+            padding-left: 1em;
+        }
+
+        
+
+        .p8 {
+            grid-column: 3/19;
+        }
+
+
+/* FOOTER */
+
+        #work {
+            display: grid;
+            grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 5px -5px 10px #F1F1F1;
+            margin-top: 4em;
+            background-color: #ffffff;
+            width: 100%;
+        }
+
+.work {
+    grid-column: 1/21;
+}
+
+.p9 {
+    font-weight: 600;
+}
+
+
+.link1 {
+    text-decoration-line: none;
+}
+        work a:hover { 
+            color: #000000;
+            transition: all 0.4s ease-in-out;
+            background-color: #00ACC1;
+            padding: 1px 1px 1px 1px;
+        }
+
+    
+
+/* Travel App */
+ 
+  #travelapp {
+            display: grid;
+            grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+            padding-top: 3em;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100em;
+        }
+
+.travelapp{
+    grid-column: 3/19;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+
+        .heading3 {
+            font-size: 3.4em;
+            grid-column: 3/20;
+            font-weight: 600;
+            margin-bottom: -0.1em;
+        }
+
+        .heading4 {
+            font-size: 2.5em;
+            grid-column: 3/10;
+            margin-left: 0;
+            margin-bottom: 0em;
+            font-weight: 500;
+        }       
+
+        .p10{
+            grid-column: 3/12;
+            font-size: 1.2em;
+            margin-bottom: 1em
+        }
+
+        .p11 {
+            font-weight: 400;
+            font-size: 1em;
+            grid-column: 3/12;
+        }
+
+.p12 {
+    grid-column: 3/12;
+}
+
+
+
+/* Photography */
+
+        #photography {
+            display: grid;
+            grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+            padding-top: 3em;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100em;
+        }
+
+        #photography, img {
+            width: 100%;
+            grid-column: 3/19;
+        }
+
+
+        .heading {
+            font-size: 3.4em;
+            grid-column: 3/7;
+            font-weight: 600;
+            margin-bottom: -0.1em;
+        }
+    
+
+        .photointro {
+            font-weight: 400;
+            font-size: 1.2em;
+            grid-column: 3/10;
+        }
+
+        .sunset3 {
+            grid-column: 3/13;
+        }
+
+        .photo1 {
+            grid-column: 14/19;
+            padding-top: 6em;
+        }
+
+
+        .sunset2 {
+            padding-top: 2em;
+            grid-column: 8/19;
+        }
+
+        .photo2 {
+            padding-top: 6em;
+            grid-column: 3/8;
+        }
+
+        .photo3 {
+            grid-column:  15/19;
+            padding-top: 6em;
+        }
+
+        .london1 {
+            grid-column: 3/14;
+            margin-top: -10em;
+        }
+
+        .london2 {
+            padding-top: 2em;
+            grid-column: 11/19;
+        }
+    
+        .photo4{
+            grid-column: 7/11;
+            padding-top: 6em;
+        }
+
+        .photo5{
+            grid-column: 11/21;
+            padding-top: 6em;
+        } 
+
+        .rome1{
+            grid-column: 3/14;
+            margin-top: -10.5em;
+            width: 70%
+        }
+
+
+        .instagramlink {
+            grid-column: 6/15;
+            padding-top: 4.5em;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+
+        .instagramlink a {
+            text-decoration: none;
+        }
+
+        .instagramlink a:hover {
+            background-color: #B2EBF2;
+            color: #000000;
+            transition: all 0.4s ease-in-out;
+            text-decoration: underline;
+       }
+
